@@ -11,7 +11,7 @@ public class SpringbootDemoApplication {
 
     @GetMapping("/message")
     public String message() {
-        return "Success";
+        return "Success deploy to AWS";
     }
 
     public static void main(String[] args) {
