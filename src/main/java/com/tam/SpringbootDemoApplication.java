@@ -14,6 +14,11 @@ public class SpringbootDemoApplication {
         return "Success deploy to AWS again";
     }
 
+    @GetMapping("/info")
+    public String info() {
+        return "Get new info";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(SpringbootDemoApplication.class, args);
     }
