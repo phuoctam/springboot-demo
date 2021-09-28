@@ -11,7 +11,7 @@ public class SpringbootDemoApplication {
 
     @GetMapping("/message")
     public String message() {
-        return "Success deploy to AWS again";
+        return "Success deploy to AWS again new";
     }
 
     @GetMapping("/info")
